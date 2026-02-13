@@ -54,59 +54,96 @@
 		</style>
 	</head>
 	<body id="body" style="margin: 0 !important; padding: 0 !important;">
-		<div class="main-content">
+		<!-- FLUID TABLE -->
+		<table border="0" cellpadding="0" cellspacing="0" width="100%" role="presentation">
+			<!-- tr = table row, td = table cell-->
+			<tr>
+				<!-- fixed table stored in this td -->
+				<td>
+					<!-- FIXED TABLE -->
+					<table border="0" cellpadding="0" cellspacing="0" width="600" role="presentation" style="margin:auto">
+						<!-- Logo -->
+						 <tr>
+							<td>
+								<img class="logo-img" src="images/mogura_logo.jpeg" alt="logo image depicting a yellow bird"
+								style="width:10%; display:block; margin:auto"/>
 
-		<!-- Logo image -->
-		 <!--logo image of the company mascot containing alternative text for accessibility, resized to a width of 5% of the page-->
-			<div class="img-1" style="text-align: center;">
-				<img class="logo-img" src="images/yuuko_logo.jpeg" alt="logo image depicting drawing of a girl with a yellow bird on her head"
-				style="width:5%"/>
-			</div>
+							</td>
+						 </tr>
 
-			<!-- Headline -->
-			 <!--header element displaying eye-catching phrase, centered using a div-->
-			<div style="text-align: center;">
-				<h1 class="headline">NEWEST ARRIVAL: Flip Clock</h1>
-			</div>
-		
-			<!-- Hero Image -->
-			 <!--hero image displaying the product being advertised containing alternative text for accessibility, resized to a width of 60% of the page-->
-			<div class="img-2" style="text-align: center;">
-				<img class="hero-img" src="images/clock_ad.png" alt="hero image depicting advertisement for clock and the following words time for a new day with this one will be great! under it"
-				style="width: 60%;"/>
-			</div>
+						 <!-- Heading -->
+						 <tr>
+							<td>
+								<h1 class="headline" style="padding:20px 20px 20px; text-align:center; background-image:url('images/clover_icon.jpeg'); background-position:right; background-repeat:no-repeat; background-size:10%">IT'S YOUR LUCKY DAY</h1>
+							</td>
+						 </tr>
 
-			<!-- Body copy -->
-			 <!--placeholder text used as filler in addition to product related description text, centered using a div-->
-			<div class="text-content" style="margin: 0 auto; padding: 10px 300px 20px;">
-				<p class="body-paragraph-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-					Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-					Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-					Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
-				</p>
-				<p class="body-paragraph-2">Wake up to our new flip clock! 
-					With its whimsy, simple, and retro-inspired design, this clock is the perfect addition to your bedside table. 
-					Use it to set alarms and wake up to crisp birdsong. The snooze button will even let you listen to it again after 5 minutes!
-					Comes with batteries. 
-				</p>
+						 <!-- Hero Image -->
+						 <tr>
+							<td>
+								<img class="hero-img" src="images/lucky_clock_ad.jpeg" alt="hero image depicting advertisement for lucky cat shaped desk clock"
+								width="600"
+								style="display:block; max-width:100%; min-width:100px; width:100%; height:auto"/>
+								
+							</td>
+						 </tr>
 
-				<!-- Button -->
-				 <!--hyperlink meant to send user to product page, but links to github repo as a temporary placeholder-->
-				<a class="subscribe" href="https://github.com/remieClaire/comp584-hw2-html-and-email">Buy your clock here</a>
+						 <!-- Body -->
+						 <tr>
+							<td>
+								<p class="body-paragraph-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+									Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+									Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+									Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
+								</p>
+								<p class="body-paragraph-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+									Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+									Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+									Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
+								</p>
+								
+							</td>
+						 </tr>
+
+						 <!-- Button -->
+							<!-- "bulletproof" button created using Vector Markup Language & links to shopping page for the clock being advertised -->
+						 <tr>
+							<td>
+								<div class="btn-content" style="text-align: center;"><!--[if mso]>
+									<v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" 
+									xmlns:w="urn:schemas-microsoft-com:office:word" 
+									href="https://www.walmart.com/ip/Milisten-Alarm-Clock-For-Kids-Without-Battery-Featuring-Cat-Shape-Plastic-Design-1Pack/18314819153?wmlspartner=wlpa&selectedSellerId=102902477&utm_source=Pinterest&utm_medium=organic" style="height:38px;v-text-
+									anchor:middle;width:200px;" arcsize="8%" strokecolor="#7ea613" fill="t">
+									<v:fill type="tile" src=""https://imgur.com/clZqdfM.gif"" color="#99c739" />
+									<w:anchorlock/>
+									<center style="color:#ffffff;font-family:sans-serif;font-size:13px;font-weight:bold;">Buy your clock here</center>
+									</v:roundrect>
+									<![endif]--><a 
+									href="https://www.walmart.com/ip/Milisten-Alarm-Clock-For-Kids-Without-Battery-Featuring-Cat-Shape-Plastic-Design-1Pack/18314819153?wmlspartner=wlpa&selectedSellerId=102902477&utm_source=Pinterest&utm_medium=organic"
+									style="background-color:#99c739; background-image:url('images/green_btn_background.gif'); border:1px solid #7ea613;border-radius:3px;color:#ffffff;display:inline-block;font-family:sans-serif;font-size:13px;font-weight:bold;line-height:38px;text-align:center;text-decoration:none;width:200px;-webkit-text-size-adjust:none;mso-hide:all;">Buy your clock here</a>
+								</div>
+							</td>
+						 </tr>
+
+						 <!-- Footer (Always include an unsubscribe link!) -->
+						 <tr>
+							<td>
+								<footer class="footer" style="font-size: small; color:grey">
+									<!--hyperlink meant to send user to unsubscribe page, but links to github repo as a temporary placeholder-->
+									<p>Feel free to <a class="unsubscribe" href="https://github.com/remieClaire/comp584-hw2-html-and-email">unsubscribe</a> from In a Timely Fashion Company.</p>
+									
+									<!--made up address for company-->
+									<p>1235 Everyday Way in Sunny, CA 10123</p>
+								</footer>
+								
+							</td>
+						 </tr>
+
+					</table>
+				</td>
+			</tr>
+
+		</table>		
 			
-			
-				<!-- Footer information: Always include an unsubscribe link! -->
-				<div class="footer-text-content" style="font-size: small; color:grey">
-					<footer class="footer">
-						<!--hyperlink meant to send user to unsubscribe page, but links to github repo as a temporary placeholder-->
-						<p>Feel free to <a class="unsubscribe" href="https://github.com/remieClaire/comp584-hw2-html-and-email">unsubscribe</a> from GoodMorning Goods</p>
-						<!--made up address for company-->
-						<p>1235 Everyday Way in Sunny, CA 10123</p>
-
-					</footer>
-				</div>
-			</div>
-		</div>
-
 	</body>
 </html>
